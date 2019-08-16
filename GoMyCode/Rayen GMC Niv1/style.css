@@ -1,0 +1,338 @@
+body{  
+ background:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            Linear-gradient(127deg, black, black 70.71%),
+            Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+h1{
+ color:white;
+ z-index: 1;
+ position: relative;
+ top:200px;
+ font-size: 6em;
+ font-family:'Bree Serif', serif;
+ text-shadow: 0 3px 2px black;
+}
+h2{
+  color:white;
+  z-index: 1;
+ }
+a{
+  color:white;
+  font-size: 1.5cm;
+  text-decoration: none;
+}
+p a{
+  color: black !important;
+  font-size: 0.4cm !important;
+  padding: 0cm !important;
+}
+center div a{
+  color: white;
+  font-size: 0.7cm;
+  text-decoration: block;
+}
+a:hover{
+  color: gray;
+}
+button:hover{
+background-color:lightblue;
+}
+body {
+    display: block;
+    margin: 0px;
+    padding:0px;
+}li{
+    display: inline-block;
+    margin: 40px;
+    margin-top: 0%;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+* {box-sizing:border-box !important;}
+.slideshow-container {
+  max-width: 1349px !important;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display:block;
+  max-width: 1349px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: block;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(190, 190, 190, 0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+input[type=text], select {
+  width: 200px; 
+  padding: 12px;   
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+input[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+ * { box-sizing: border-box;} 
+.cover {
+  background-image: url("res/wb.png");
+  height:550px; 
+  width: 100%;
+  z-index: 20;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.course1{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download.png');
+  background-size: cover;
+  overflow:hidden;
+
+}
+.course1:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses1{
+  margin-top:120px;
+  display:none;
+}
+
+
+.course2{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download\ \(2\).png');
+  background-size: cover;
+  overflow:hidden;
+}
+.course2:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses2{
+  margin-top:120px;
+  display:none;
+}
+
+
+.course3{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download\ \(3\).png');
+  background-size: cover;
+  overflow:hidden;
+}
+.course3:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses3{
+  margin-top:120px;
+  display:none;
+}
+
+
+
+
+.course4{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download\ \(4\).png');
+  background-size: cover;
+  overflow:hidden;
+}
+.course4:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses4{
+  margin-top:120px;
+  display:none;
+}
+
+
+.course5{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download\ \(5\).png');
+  background-size: cover;
+  overflow:hidden;
+}
+.course5:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses5{
+  margin-top:120px;
+  display:none;
+}
+
+
+.course6{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download\ \(6\).png');
+  background-size: cover;
+  overflow:hidden;
+}
+.course6:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses6{
+  margin-top:120px;
+  display:none;
+}
+
+.course7{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download\ \(7\).png');
+  background-size: cover;
+  overflow:hidden;
+}
+.course7:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses7{
+  margin-top:120px;
+  display:none;
+}
+
+.course8{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download\ \(8\).png');
+  background-size: cover;
+  overflow:hidden;
+}
+.course8:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses8{
+  margin-top:120px;
+  display:none;
+}
+
+.course9{
+  width:250px;
+  height:250px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url('./res/download\ \(9\).png');
+  background-size: cover;
+  overflow:hidden;
+}
+.course9:hover{
+  background-color:black;
+  opacity: 0.5;
+}
+.btnCourses9{
+  margin-top:120px;
+  display:none;
+  padding: 0px;
+}
+.btnCourses1Hover{
+  display:inline !important;
+  opacity: 1 !important;
+}
+#ex1{
+  display:none;
+}
+.modal{
+  height: 200px !important;
+}
